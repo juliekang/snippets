@@ -1,0 +1,604 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Contact information for Merck & Co., Inc."/>
+<meta name="keywords" content="contact, address, phone, contact information, headquarters"/>
+<title>Contact Us</title>
+<!--css for global-->
+    <link type="text/css" rel="stylesheet" href="/css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="/css/global.css" />
+    <link type="text/css" rel="stylesheet" href="/css/mainnav.css" />
+    <link type="text/css" rel="stylesheet" href="/css/forms.css" />
+    <link type="text/css" rel="stylesheet" href="/css/print.css" />
+    <link type="text/css" rel="stylesheet" href="/css/sideNav.css" />
+    <link type="text/css" rel="stylesheet" href="/css/modules.css" />
+    
+    <noscript>
+    	<link type="text/css" rel="stylesheet" href="/css/noscript.css" />
+    </noscript>    
+    
+    <style type="text/css">
+		#pdfdisplay {
+			position: relative;
+			top: 20px;
+			width: 1000px;
+			padding: 10px;
+			text-align: left;
+			border: 2px solid #676767;
+			background: white;
+			font-size: 20px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			line-height: 18px;
+			color: #676767;
+			vertical-align: top;
+		}
+    </style>
+    <link rel="stylesheet" type="text/css" href="/css/hovertip.css"/>
+<!-- css for modules -->
+    <link type="text/css" rel="stylesheet" href="/css/merckAccordian.css" />
+    <link type="text/css" rel="stylesheet" href="/css/merckTabs.css" />
+<!--js global-->
+	<script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>   
+    <!--<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script> --> 
+    <script type="text/javascript" src="/js/css_browser_selector.js"></script>
+	<script src="/includes/audio-video/swf/AC_OETags.js" language="javascript" type="text/javascript"></script>
+	<script language="JavaScript">
+		var externalLinkWarning;
+		var registeredsymbolstyle;
+		var registeredsymbolHerostyle;
+		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+		
+		if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+		
+		externalLinkWarning = "The link you have selected will take you to a site outside Merck.com. \n\nMerck does not review or control the content of any non-Merck site. Merck does not endorse and is not responsible for the accuracy, content, practices, or standards of any non-Merck sources.";
+		
+		registeredsymbolstyle = "<sup style='padding:0px;font-size: 0.63em; top:0.23em;line-height: 0.5em;vertical-align:super'>&reg;</sup>";
+		registeredsymbolHerostyle="<sup style='padding:0.3em 0em 0em 0em; line-height: 0.5em;top: -0.02em;font-size: 18px;'>&reg;</sup>";
+		
+		}
+		else if (is_chrome == true)
+		{
+		externalLinkWarning = "The link you have selected will take you to a site outside Merck.com. \n\nMerck does not review or control the content of any non-Merck site. Merck does not endorse and is not responsible for the accuracy, content, practices, or standards of any non-Merck sources.";
+		
+		registeredsymbolstyle = "<sup style='padding:0px;font-size: 0.63em; top:-0.01em; line-height: 0.5em;vertical-align:super'>&reg;</sup>";
+		registeredsymbolHerostyle="<sup style='padding:-0.01em;top: -0.01em;font-size: 18px;'>&reg;</sup>";
+		}
+		else
+		{
+		externalLinkWarning = "The link you have selected will take you to a site outside Merck.com. \n\nMerck does not review or control the content of any non-Merck site. Merck does not endorse and is not responsible for the accuracy, content, practices, or standards of any non-Merck sources.";
+		
+		registeredsymbolstyle = "<sup style='padding:0px;font-size: 0.88em; top:-0.01em;line-height: 0.9em;vertical-align:super;'>&reg;</sup>";
+		registeredsymbolHerostyle="<sup style='padding:0.3em 0em 0em 0em;top: -0.02em;font-size: 21px;'>&reg;</sup>";
+		}
+		
+		function extLink(link) {
+		var elw = externalLinkWarning.replace(/\*n/g,'\n');
+		var uc = confirm(elw);
+		if (uc)
+		{
+		window.open(link);
+		}
+		
+		}
+    </script>
+    <script src="/js/AC_RunActiveContent.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		function explanation_of_newprivacy_policy()
+		{
+		window.open('/about/how-we-operate/privacy/explanation-of-changes-to-merck-internetprivacypolicy.html', 'EXPLANATION', 'toolbar=0, location=0, directories=0, menuBar=0, scrollbars=0, resizable=0, width=800, height=240, left=375, top=350');
+		}
+		
+		function explanation_of_newprivacy_policy1()
+		{
+		window.open('/about/how-we-operate/privacy/explanation-of-changes-to-merck-safeharborpolicy.html', 'EXPLANATION', 'toolbar=0, location=0, directories=0, menuBar=0, scrollbars=0, resizable=0, width=800, height=210, left=375, top=350');
+		}
+		
+		function setActive() {
+		
+			if (document.getElementById('parent1') != null)
+			{
+				var parent1 = document.getElementById('parent1');
+				var child1 = document.getElementById('child1').getElementsByTagName('a');
+			
+				for(j=0;j<child1.length;j++) {		
+					if(document.location.href.indexOf(child1[j].href)>=0) {
+					//parent1.className="altactive";
+					parent1.style.font="bold 11px arial,serif";
+					parent1.href = "javascript:Void()";
+					break;
+					}		
+				}
+			}
+		
+			if (document.getElementById('parent2') != null)
+			{
+				var parent2 = document.getElementById('parent2');
+				var child2 = document.getElementById('child2').getElementsByTagName('a');
+			
+				for(i=0;i<child2.length;i++) {
+				
+					if(document.location.href.indexOf(child2[i].href)>=0) {
+					//parent2.className="altactive";
+					parent2.style.font="bold 11px arial,serif";
+					parent2.href = "javascript:Void()";
+					break;
+					}		
+				}
+			}
+		
+			if (document.getElementById('parent3') != null)
+			{
+				var parent3 = document.getElementById('parent3');
+				var child3 = document.getElementById('child3').getElementsByTagName('a');
+				
+				for(k=0;k<child3.length;k++) {
+				
+					if(document.location.href.indexOf(child3[k].href)>=0) {
+					//parent3.className="altactive";
+					parent3.style.font="bold 11px arial,serif";
+					parent3.href = "javascript:Void()";
+					break;
+					}
+		
+				}
+			}
+		
+		}
+    </script> 
+    
+    <!-- Hovertip used for 25yrs Mectizan Donation Program located next to the Merck logo -->
+    <script type="text/javascript" src="/js/hovertip.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            window.setTimeout(hovertipInit, 1);
+            });
+            function openwindow(){
+            window.open('http://www.merckresponsibility.com/');
+        }
+    </script>
+<!-- jquery plugins here -->
+<script type="text/javascript" src="/js/jquery.merckAccordian.js"></script>
+<script type="text/javascript" src="/js/jquery.blockUI.js"></script>
+<script type="text/javascript" src="/js/jquery.merckTabs.js"></script>
+<script type="text/javascript" src="/js/jquery.quadCorners.min.js"></script>
+<script type="text/javascript" src="/js/jquery.preloader.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/js/global.js"></script>
+<script type="text/javascript" src="/js/dropdown_menu.js"></script>
+<script type="text/javascript" src="/js/forms.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.quadCorners.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/modal.js"></script>
+<script type="text/javascript" src="/js/page.js"></script>
+<script type="text/javascript">
+function addMeta(name,content){
+var mtMeta = document.createElement('meta');
+mtMeta.name = name;
+mtMeta.content = content;
+document.getElementsByTagName('head').item(0).appendChild(mtMeta);
+}
+addMeta("DCSext.dcsid","dcs004xtu100000wcf1sga6nx_3f7d");
+addMeta("DCSext.sdcserver","sdc-web.merck.com");
+addMeta("WT.sp","www.merck.com");
+</script>
+</head>
+<body>
+<a name="top" />
+<div class="globalWrapper">
+    <div class="headerContainer">
+      <!-- Below is the header.html include file -->
+<!--<div class="headerContainer"> -->
+          <script type="text/javascript">
+function blank(a) { if(a.value == a.defaultValue) a.value = ""; }
+function unblank(a) { if(a.value == "") a.value = a.defaultValue; }
+</script> 
+     <style type="text/css">
+.text{
+	font-style:italic;
+	}
+</style> 
+
+	<div class="headerTop">
+        <div class="logo"><a href="/" title="Merck & Co., Inc."><img alt="" src="/images/global/logo_Merck.jpg"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+       
+        <ul class="topNav">
+            <li><a href="/index.html" id="homeToggle">home</a></li>
+            <li><a href="/investors/home.html" id="investorsToggle">investors</a></li>
+            <li><a href="http://www.mercknewsroom.com/" id="newsToggle" target="_blank">newsroom</a></li>
+            <li><a href="/licensing/home.html" id="licensingToggle">licensing</a></li>        
+            <li class="last"><a href="/contact/home.html" id="contactToggle">contact us</a></li>
+        </ul>
+        <a href="/includes/worldwidesites.html" class="btn-worldwide"><img src="/images/global/btn-worldwide.jpg" /></a>
+    </div>
+
+    <div id="careersSubs" style="font-size:11px; text-align:center; padding:2px;width:450px; margin-left:460px; margin-right:auto; margin-top:-27px;position:absolute; display: none;"> 
+        <a href="/careers/home.html" class="topNavSubNoDash">United States</a>
+        <a href="http://www.merckfrosst.ca/careers/ca_en/home.html" target="_blank" class="topNavSub">Canada</a>
+        <a href="http://www.msd.com/careers/" target="_blank" class="topNavSub">MSD Worldwide</a>
+    </div>  
+
+	<div class="globalNav">
+		<div class="searchBox">		
+			<form action="/searchresults/search.html" method="get" name="frm"  onsubmit="return validate_header();">
+                <table border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                        <td><input type=text name="strSearchTerm"  class="text" maxlength="100" onfocus="blank(this)" onblur="unblank(this)" value="Search merck.com"/></td>
+                        <td><input type="image" src="/images/global/butn_search.gif" class="butn" /></td>
+                    </tr>
+                </table>
+         	</form>		
+		</div>        
+		<div class="bg">
+			
+		</div>
+
+		<ul class="drop">
+			<li class="about">
+				<a class="open" href="/about/home.html" title=""><span>About Us</span></a>
+				<ul>
+					<li><a href="/about/our-values/home.html">Our Values</a></li>
+                    <li><a href="/about/brochure/home.html">Be well</a></li>
+                    <li><a href="/about/resources/home.html">Health Tips &amp; Resources</a></li>
+					<li><a href="/about/leadership/home.html">Leadership</a></li>
+					<li><a href="/about/how-we-operate/home.html">How We Operate</a></li>
+					<li><a href="/about/views-and-positions/home.html">Views and Positions</a></li>					
+					<li><a href="/about/our-history/home.html">Our History</a></li>
+					<li class="last"><a href="/about/featured-stories/home.html">Featured Stories</a></li>                    
+				</ul>
+			</li>
+			<li class="responsibility">
+				<a class="open" href="/responsibility/home.html" title=""><span>Corporate Responsibility</span></a>
+			</li>
+			<li class="research">
+				<a class="open" href="/research/home.html" title=""><span>Research</span></a>
+				<ul>
+					<li><a href="/research/pipeline/home.html">Pipeline</a></li>
+					<li><a href="/research/discovery-and-development/home.html">Discovery &amp; Development</a></li>
+					<li class="last"><a href="/research/fellow/home.html">MRL Postdoctoral Research Fellow Program</a></li>
+                </ul>
+			</li>
+			<li class="products"><a class="open" href="/product/home.html" title=""><span>Products</span></a>
+                <ul>
+                    <li><a href="/product/vaccines/home.html">Vaccines</a></li>	
+                    <li ><a href="/product/prescription-products/home.html">Prescription Products &amp; Prescribing Information</a></li>
+                    <li><a href="/product/consumer-products/home.html">Consumer Products</a></li>
+                    <li><a href="/product/animal-health/home.html">Animal Health</a></li>
+                    <li class="last"><a href="/product/patent/home.html">Product Patents</a></li>
+                </ul>
+            </li>
+            <li class="careers"><a class="open" href="/careers/home.html" title=""><span>Careers</span></a>
+                <ul>
+                    <li><a href="/careers/us_home.html">United States</a></li>	
+                    <li ><a href="http://www.merckfrosst.ca/careers/ca_en/home.html" target="_blank">Canada</a></li>
+                    <li class="last"><a href="http://www.msd.com/careers/" target="_blank">MSD Worldwide</a></li>
+                </ul>
+            </li> 	
+		</ul>
+	</div>
+<!--</div> -->
+    </div>
+    <!-- end headerContainer -->
+    <div class="clearfix contentWrapper">
+      <div class="heroContainer">
+        <div id="hero">
+          <h2>CONTACT US</h2>
+          <img src="/images/heros/hero_t1_contactus.jpg" /> </div>
+      </div>
+      <div id="columnCenterNoLeftNav">
+        <h1>Thank you for your interest in learning more about our company.  In an effort to answer your inquiries, the following information is provided for your convenience.</h1>
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4> Merck Corporate Headquarters</h4>
+              <p>One Merck Drive</p>
+              <p>P.O. Box 100</p>
+              <p>Whitehouse Station, NJ 08889-0100 USA</p>
+              <p>Phone: 908-423-1000</p>
+              <p>Monday-Friday 8:30 AM - 5:30 PM ET</p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Merck Worldwide Contact Information</h4>
+              <p>Contact information for Merck worldwide is available <a href="/contact/contacts.html">here</a>.</p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border" style="width:550px">
+          <div class="module-bucket-container-inner clearfix" >
+            <div class="module-bucket" >
+              <h4> U.S. Healthcare Professionals</h4>
+              <p>To speak with a Merck healthcare professional about Merck products, or to report an adverse experience with a specific Merck product, please call the Merck National Service Center at (800) 444-2080. The Merck National Service Center is pleased to assist you Monday through Friday from 8 AM to 7 PM ET. </p>
+              <p>Adverse experiences and product-related emergencies can be reported at any time by dialing (800) 444-2080.</p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border" style="width:550px">
+          <div class="module-bucket-container-inner clearfix" >
+            <div class="module-bucket" >
+              <h4> U.S. Veterinarians</h4>
+              <p>To report an adverse reaction or a product-related problem, please call Merck Animal Health Technical Services:</p>
+              <ul class="textList">
+              <li><strong>(800) 224-5318</strong>  Companion Animal (Dogs, Cats)<br />
+			  8:30 am to 5:00 pm EST</li>
+              <li><strong>(800) 211-3573</strong>  Livestock, Poultry & Aquaculture (Cattle, Swine, Dairy, Poultry & Fish)<br />
+			  8:30 am to 8:00 pm EST</li>
+              <li><strong>(866) 349-3497</strong>  Equine (Horses)<br />
+			  8:30 am to 5:00 pm EST</li>
+
+              </ul>
+             
+              <p>Visit <a href="http://www.merck-animal-health-usa.com/" target="_blank">Merck Animal Health</a>.</p>
+</div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border" style="width:550px">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>U.S. Patients and Caregivers</h4>
+              <p>If you have questions relating to Merck prescription products, your medical condition or personal health matters, please contact your physician or healthcare provider since he or she is most familiar with your medical condition. Merck cannot respond to questions about general medical information or information regarding your specific condition.</p>
+              <p>To report an adverse experience with a specific Merck product, please call the Merck National Service Center at 800-444-2080. </p>
+              <p>For information on our U.S. patient assistance programs:</p>
+              <p>Merck resources and information:</p>
+              <ul class="textList">
+                <li><a href="http://www.merck.com/merckhelps/" target="_blank">Merck Patient Assistance Program</a></li>
+                <p><strong>(800) 727-5400</strong></p>
+                <li><a href="/merckhelps/vaccines/home.html">Merck Vaccine Assistance Program</a></li>
+                <p><strong>(800) 293-3881</strong></p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Stockholders & Investors</h4>
+              <p><a href="/investors/contact-investor-relations/home.html">Contact information for Stockholders and Investors is available here.</a></p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Global Health Innovation Fund, LLC</h4>
+              <p><a href="/ghi">Contact information for Global Health Innovation Fund, LLC is available here.</a></p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>EngageZone</h4>
+              <p>Visit the EngageZone website at <a href="http://engagezone.merck.com" target="_blank">http://engagezone.merck.com</a><br />
+              <br />Contact information for the Merck Research Network is available <a href="http://engagezone.merck.com/contact_us.html" target="_blank">here</a>.</p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+
+  
+        <div class="module-bucket-container-oneCol-border">
+<div class="module-bucket-container-inner clearfix">
+<div class="module-bucket">
+<h4>Supplier Diversity</h4>
+<p>Questions about supplier diversity at Merck? <a href="mailto:supplier_diversity@merck.com">Contact us</a>.</p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+
+        <div class="module-bucket-container-oneCol-border" style="width:550px">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Contact the Merck Board of Directors</h4>
+              <p>Merck will forward all communications from security holders and interested parties to the full Board, to non-management directors, to an individual director or to the chairperson of the Board Committee that is most closely related to the subject matter of the communication, except for the following types of communications:</p>
+              <ul class="textList">
+                <li>communications that advocate that the company engage in illegal activity;</li>
+                <li>communications that, under community standards, contain offensive or abusive content;</li>
+                <li>communications that have no relevance to the business or operations of the company; and</li>
+                <li>mass mailings, solicitations and advertisements.</li>
+              </ul>
+              <p>The Corporate Secretary, in consultation with the General Counsel, will determine when a communication is not to be forwarded.  The company&#8217;s acceptance and forwarding of communications to the directors does not imply that the directors owe or assume any fiduciary duties to persons submitting the communications.</p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Write to the Merck Board</h4>
+              <p>Board of Directors (or name of individual director)</p>
+              <p>Merck &amp; Co., Inc.</p>
+              <p>P.O. Box 1150</p>
+              <p>Whitehouse Station, NJ 08889</p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border" style="width:550px">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Contact the Merck Audit Committee</h4>
+              <p>Employees and stockholders may raise a question or concern to the Audit Committee regarding accounting, internal accounting controls or auditing matters by following the procedures located on Page 2, &#8220;Additional Assistance,&#8221; of <a href="/about/code_of_conduct.pdf" class="pdf" target="_blank">Merck Code of Conduct &#8211; Our Values and Standards.</a></p>
+              <p>These procedures are part of Merck's overall <a href="/about/how-we-operate/code-of-conduct/home.html">code of conduct.</a></p>
+            </div>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="module-bucket-container-oneCol-border">
+          <div class="module-bucket-container-inner clearfix">
+            <div class="module-bucket">
+              <h4>Contact Information Related To These Topics</h4>
+              <ul class="textList">
+                <li> <a href="http://www.mercknewsroom.com/media-contacts/home.html" target="_blank">Newsroom</a></li>
+                <li> <a href="/licensing/contact-us/home.html">Licensing</a></li>
+                <li> <a href="http://merckresponsibility.com/contact-us/" target="_blank">Corporate Responsibility </a></li>
+                <li> <a href="/about/how-we-operate/diversity/supplier-diversity.html">Supplier Diversity</a></li>
+                <li> <a href="http://www.merckbooks.com/contact.html" target="_blank">Merck Manuals </a></li>
+                <li> <a href="/about/how-we-operate/privacy/home.html">Privacy Policy and Safe Harbor Privacy Policy Information </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="columnRight">
+        <ul class="utility-buttons clearfix">
+	<li class="printButton"><a href="#nojs">Print</a></li>
+	<li class="shareButton"><a href="#nojs">Share</a></li>
+	<li class="textSizeButton"><a href="#nojs">Text Size</a></li>
+	<li class="accessButton"><a href="http://www.essentialaccessibility.com/" target="_blank">Access</a></li>
+</ul>
+<div class="dashedRule"></div>
+      </div>
+    </div>
+    <div class="footer1 clearfix">
+       <!-- <div class="searchFooter">
+			<form action="/search/userSearch.do" method="get" name="frm"  onsubmit="return validate_header();">
+               <tr>
+                    <td><input type=text name="strSearchTerm"  class="text" maxlength="100" value=""/></td>
+                    <td><input type="image" src="/images/global/butn_search.gif" class="butn" />
+                </tr>
+         	</form>
+
+        </div> -->
+	<ul class="sitemap clearfix">
+		<li>
+			<h5>Patients &amp; Caregivers</h5>
+			<ul>
+				<li><a href="merckresponsibility.com/focus-areas/access-to-health/community-investment/patient-assistance-program/" target="_blank">Merck Helps&trade; Programs</a></li>
+				<li><a href="http://www.merckmanuals.com/home/index.html" target="_blank">The Merck Manual &mdash; Home Edition</a></li>
+				<li><a href="http://www.merckmanuals.com/home/older_peoples_health_issues.html" target="_blank">The Merck Manual of Health &amp; Aging</a></li>
+				<li><a href="http://www.merckengage.com/landing_page.aspx?WT.mc_id=MEMWS" target="_blank">MerckEngage </a></li>
+				<li><a href="/research/discovery-and-development/clinical-development/home.html">Clinical Trials</a></li>
+                <li><a href="/about/resources/home.html">Health Tips &amp; Resources</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5>Healthcare Professionals</h5>
+			<ul> 
+				<li><a href="http://engagezone.merck.com" target="_blank">EngageZone</a></li>
+				<li><a href="http://www.merckmanuals.com/professional/index.html" target="_blank">The Merck Manual</a></li>
+                <li><a href="http://www.merckmedicus.com" target="_blank">Merck Medicus</a></li>
+				<li><a href="/product/distributors/home.html">Authorized Distributors</a></li>
+				<li><a href="/research/discovery-and-development/clinical-development/home.html">Clinical Trials</a></li>
+           		<li>&nbsp;&nbsp;</li>
+                <h5>Suppliers</h5>
+                <li><a href="/about/how-we-operate/diversity/supplier-diversity.html">Supplier Diversity</a></li> 
+			</ul>
+		</li>
+		<li>
+			<h5>Media &amp; Investors</h5>
+			<ul>
+				<li><a href="http://www.mercknewsroom.com/">News</a></li>
+				<li><a href="/investors/partnerships/home.html">Partnerships</a></li>
+				<li><a href="/investors/financials/quarterly-financials/home.html">Quarterly Financials</a></li>
+				<li><a href="/investors/financials/sec-filings/home.html">SEC Filings</a></li>
+				<li><a href="/investors/financials/annual-reports/home.html">Annual Reports</a></li>
+				<li><a href="/investors/events-and-presentations/home.html">Presentations & Events</a></li>
+				<li><a href="http://www.mercknewsroom.com/company-statements/all/all/Company-Statements/home.html">Company Statements</a></li>
+				<li><a href="http://www.mercknewsroom.com/media-contacts/home.html">Media Contacts</a></li>
+				<li><a href="/investors/contact-investor-relations/home.html">Investor Contacts</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5>Job Seekers</h5>
+			<ul>
+				<li><a href="/careers/life-at-merck/diversity-recruiting/home.html">Recruiting</a></li>
+				<li><a href="/careers/life-at-merck/benefits/home.html">Benefits</a></li>
+				<li><a href="/about/how-we-operate/diversity/home.html">Diversity</a></li>
+				<li><a href="/careers/search-and-apply/search-jobs/home.html">Search Jobs</a></li>
+				<li><a href="/careers/search-and-apply/submit-resume/home.html">Post Resume</a></li>
+				<li><a href="/research/pipeline/home.html">Pipeline</a></li>
+				<li><a href="/investors/financials/annual-reports/home.html">Annual Report</a></li>
+				<li><a href="/about/our-values/home.html">Core Values</a></li>
+			</ul>
+		</li>
+        <li>
+			<h5><a href="http://www.mercknewsroom.com/company-statements/all/all/Company-Statements/home.html">Company Statements</a></h5>
+			<ul>
+				<li><a href="http://www.mercknewsroom.com/news/statement-merck-regarding-fosamax-alendronate-sodium-and-rare-cases-osteonecrosis-jaw">FOSAMAX<sup>&reg;&nbsp;</sup> (alendronate sodium) Statement regarding Osteonecrosis of the Jaw</a> </li>
+				<li><a href="https://www.merckvaccines.com/Order-Vaccines/Pages/supply-status.aspx" target="_blank">Merck Vaccine Supply Status Update</a></li>
+				<li>&nbsp;&nbsp;</li>
+			<!--	<li><h5><a class="rssPodcast" href="/podcast/home.html">Podcasts</a></h5></li>-->
+				<li><h5><a class="rssPodcast" href="/rss/home.html">RSS</a></h5></li>
+			</ul>
+		</li>
+  </ul>
+	<ul class="legalnav clearfix">
+    	<li class="copyright"><a href="/policy/copyright/home.html">Copyright</a> &copy; 2009-2013 Merck Sharp &amp; Dohme Corp., a subsidiary of<font style="font-size:11px"><b> Merck &amp; Co., Inc.</b></font> All rights reserved.</li>
+
+        <li>&nbsp;&nbsp;</li>
+        <li>&nbsp;&nbsp;</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+		<li>&nbsp;&nbsp;</li>
+        <li>&nbsp;&nbsp;</li>
+		<li>&nbsp;&nbsp;</li>
+		<li>&nbsp;&nbsp;</li>
+        <li>&nbsp;&nbsp;</li>
+		<li><a href="/about/how-we-operate/privacy/home.html" style="color:#FF7200;">Privacy</a></li>
+		<li><a href="/policy/terms-of-use/home.html">Terms of Use</a></li>
+        <li><a href="/map/home.html">Site Map</a></li>
+	</ul>
+<div align="center"><a href="http://clicktoverify.truste.com/pvr.php?page=validate&url=www.merck.com&sealid=101" target="_blank"><img src="/images/global/truste_icon.jpg" alt="TRUSTe - Click to Verify" width="135" height="40" border="0" /></a>
+&nbsp;&nbsp;<a href="http://www.essentialaccessibility.com" target="_blank"><img src="/images/global/essential_access_icon.jpg" alt="This Web This Web Accessibility icon serves as a link to download eSSENTIAL Accessibility assistive technology software for individuals with physical disabilities. It is being featured as part of a Disability Community Involvement initiative that reflects our commitment to Diversity, Inclusion,Corporate Citizenship and Social Responsibility." width="90" height="40" border="0" /></a>
+<img src="/images/global/blank.gif" width="150" height="40" border="0" />
+<a href="http://www.facebook.com/merckbewell" target="_blank"><img src="/images/global/icon_facebook.gif" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/merck" target="_blank"><img src="/images/global/icon_twitter.gif" border="0" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.youtube.com/merck" target="_blank"><img src="/images/global/icon_youtube.gif" border="0" /></a> 
+</div>
+</div>
+
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2008 WebTrends Inc. All rights reserved. -->
+<!-- Version: 8.5.0 -->
+<!-- Tag Builder Version: 2.0.0 -->
+<!-- Created: 7/31/2008 15:53:29 -->
+<script src="/js/webtrends.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/products.js"></script>
+<script src="/js/mercktracker.js" type="text/javascript"></script>
+<script type="text/javascript">
+var mTrack = new MerckTracker();
+</script>
+
+<!-- Warning: The two script blocks below must remain inline. -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>>
+</script>
+<script type="text/javascript">
+mTrack.mtMainCollect();
+</script>
+<script type="text/javascript">
+//<![CDATA[
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+_tag.dcsCollect(mTrack);
+//]]>>
+</script> 
+  </div>
+  <h4>&nbsp;</h4>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
+
